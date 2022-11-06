@@ -1,2 +1,1 @@
-# market-engine-api
-Market Engine API Gateway
+# Market Engine API Gateway
