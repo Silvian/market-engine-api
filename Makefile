@@ -52,7 +52,7 @@ build:
 
 .PHONY: test
 test: build
-	docker-compose run --rm pytest -p no:cacheprovider
+	docker-compose run --rm app pytest -p no:cacheprovider
 
 
 # Runs the project using Docker Compose.
