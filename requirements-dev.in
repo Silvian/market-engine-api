@@ -1,0 +1,6 @@
+isort
+black
+pytest
+pytest-asyncio
+pytest-dotenv
+mock
