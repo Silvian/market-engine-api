@@ -1,8 +1,8 @@
 from pydantic import BaseModel, Field
 
 
-class CatalogueItem(BaseModel):
-    """Catalogue item model definition."""
+class Item(BaseModel):
+    """Catalogue item data model definition."""
 
     id: str = Field(
         ...,
