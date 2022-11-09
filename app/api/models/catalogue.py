@@ -1,3 +1,5 @@
+from typing import List
+
 from pydantic import BaseModel, Field
 
 
@@ -64,8 +66,8 @@ class ItemDetails(Item):
         description="Item description.",
         example="This is a very nice watch.",
     )
-    reviews: list = Field(
-        Review,
+    reviews: List[Review] = Field(
+        ...,
         description="Catalogue item reviews",
     )
 

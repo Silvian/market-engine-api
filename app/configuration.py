@@ -1,9 +1,8 @@
-import os
 import logging
+import os
+from typing import Iterable, List, Tuple
 
 from dotenv import find_dotenv, load_dotenv
-from typing import List, Iterable, Tuple
-
 from pydantic import BaseModel
 
 logger = logging.getLogger(__name__)
