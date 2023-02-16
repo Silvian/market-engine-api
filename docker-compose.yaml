@@ -2,6 +2,8 @@ version: "3"
 
 services:
   app:
+    image: market-engine-api
+    restart: always
     build:
       context: ./
       dockerfile: ./Dockerfile

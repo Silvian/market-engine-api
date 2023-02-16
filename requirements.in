@@ -1,5 +1,8 @@
 fastapi
+grpcio
+grpcio-tools
 httptools
 httpx
+protobuf
 uvicorn
 uvloop
